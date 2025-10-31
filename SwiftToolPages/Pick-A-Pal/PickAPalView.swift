@@ -22,6 +22,7 @@ struct PickAPalView: View {
                     .symbolRenderingMode(.hierarchical)
                 Text("Pal-Picka")
                     .fontWidth(.expanded)
+                    .foregroundStyle(.tint)
             }
             .font(.largeTitle)
             .bold()
@@ -33,9 +34,12 @@ struct PickAPalView: View {
                 ForEach(names, id: \.description) {name in
                     Text(name)
                 }
-                
+                .listRowBackground(Color.accent)
+                .listRowSeparatorTint(Color.fgcolor)
             }
-            
+            .foregroundStyle(.gradientTop)
+            .listStyle(.plain)
+            .background(Color.accent)
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .frame(height: 300)
             
@@ -75,6 +79,7 @@ struct PickAPalView: View {
                     .padding(.vertical, 4)
                     .padding(.horizontal, 20)
             }
+            .tint(.gradientBottom)
             .disabled(names.isEmpty)
             .buttonStyle(.borderedProminent)
             .font(.title2)
@@ -95,9 +100,9 @@ struct PickAPalView: View {
                 .buttonStyle(.borderedProminent)
                 .font(.title2)
             }
+            Spacer()
         }
         .padding()
-        Spacer()
     }
 }
 

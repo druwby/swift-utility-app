@@ -53,7 +53,6 @@ struct ScoreTrackerView: View {
                 players.append(Player(name: "", score: 0))
             }
 
-            Spacer()
         }
         .padding()
     }

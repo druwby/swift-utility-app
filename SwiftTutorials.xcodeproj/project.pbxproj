@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A6D295A2EA99C4C00949EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D29462EA99C4C00949EE6 /* Assets.xcassets */; };
+		1A8D3AC52EB471F000E95749 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A8D3AC42EB471F000E95749 /* README.md */; };
 		1AB7733D2E97318000BA79AA /* everythingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7733C2E97318000BA79AA /* everythingview.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		1A6D29462EA99C4C00949EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8D3AC42EB471F000E95749 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1AB7733C2E97318000BA79AA /* everythingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = everythingview.swift; sourceTree = "<group>"; };
 		1AC5010D2E8B4AA600531D1B /* SwiftTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5011A2E8B4AA700531D1B /* SwiftTutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +39,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A1E30C02E9F2721007154A8 /* SwiftTutorials */ = {
+		1A1E30C02E9F2721007154A8 /* SwiftToolPages */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftTutorials;
+			path = SwiftToolPages;
 			sourceTree = "<group>";
 		};
 		1AC5011D2E8B4AA700531D1B /* SwiftTutorialTests */ = {
@@ -86,7 +88,8 @@
 				1AC501272E8B4AA700531D1B /* SwiftTutorialUITests */,
 				1AC5010E2E8B4AA600531D1B /* Products */,
 				1AB7733C2E97318000BA79AA /* everythingview.swift */,
-				1A1E30C02E9F2721007154A8 /* SwiftTutorials */,
+				1A8D3AC42EB471F000E95749 /* README.md */,
+				1A1E30C02E9F2721007154A8 /* SwiftToolPages */,
 				1A6D29462EA99C4C00949EE6 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +120,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1A1E30C02E9F2721007154A8 /* SwiftTutorials */,
+				1A1E30C02E9F2721007154A8 /* SwiftToolPages */,
 			);
 			name = SwiftTutorials;
 			packageProductDependencies = (
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8D3AC52EB471F000E95749 /* README.md in Resources */,
 				1A6D295A2EA99C4C00949EE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
